@@ -49,9 +49,67 @@ export const SubTitle = styled.Text`
     margin-bottom: 20px;
     letter-spacing: 1px;
     font-weight: bold;
-    color: ${darkLight};    
+    color: ${tertiary};    
 `;
 
 export const StyledFormArea = styled.View`
     width: 90%;
 `; 
+
+
+export const StyledTextInput = styled.TextInput`
+    background-color: ${secondary};
+    width: 100%;
+    padding: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 60px;
+    margin-vertical: 5px;
+    margin-bottom: 10px;
+    color: ${tertiary};
+`; 
+
+export const StyledInputLabel = styled.Text`
+    color: ${tertiary};
+    font-size: 13px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+`;
+
+export const LeftIcon = styled.View`
+    left: 15px;
+    top: 38px; 
+    position: absolute;
+    z-index: 1;
+
+`; 
+
+
+export const RightIcon = styled.TouchableOpacity`
+    left: 15px;
+    top: 38px; 
+    position: absolute;
+    z-index: 1;
+`; 
+
+
+export const StyledButton = styled.TouchableOpacity`
+    padding: 15px;
+    background-color: ${brand};
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-vertical: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+`;
+
+export const ButtonText = styled.Text`
+    color: ${primary};
+    font-size: 16px;
+    font-weight: bold;
+`;
